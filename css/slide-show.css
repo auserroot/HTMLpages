@@ -18,4 +18,6 @@ body{ background:url(../images/bg.jpg); }
 #Tz_wrap .btn div{ width:40px; height:69px; position:absolute; top:50%; margin-top:-35px; background-image:url(../images/btn.png); cursor:pointer; }
 #Tz_wrap .btn div#left{ left:15px; background-position:0px 0px; }
 #Tz_wrap .btn div#right{ right:15px; background-position:-42px 0px; }
+
 .but{width: 120px;height: 50px;font-size: 30px;font-weight: bold;color: rgb(36,255,136);position: absolute;left: 47%;top:500px;}
+
