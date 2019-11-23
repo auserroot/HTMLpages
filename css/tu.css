@@ -48,3 +48,14 @@ img{
 	top:0px;
 	opacity:1;
 }
+
+.but{
+	width: 120px;
+	height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(36,255,136);
+	position: absolute;
+	left: 47%;
+	top:500;	
+}
