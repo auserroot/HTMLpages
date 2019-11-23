@@ -1,0 +1,50 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:#434343;
+}
+#Tz_box{
+	width:1060px;
+	height:530px;
+	margin:0 auto;
+	background-color:#222;
+	overflow: hidden;
+}
+.img{
+	width:340px;
+	height:100%;
+	float:left;
+	margin-right:6px;
+}
+.last{
+	width:340px;
+}
+.hover{
+	position:relative;
+	overflow:hidden;
+}
+.img1{
+	width:340px;
+	height:250px;
+	margin-bottom:10px;
+}
+.img2{
+	width:340px;height:180px;margin-bottom:10px;
+}
+.img3{
+	width:380px;height:258px;margin-bottom:10px;
+}
+.img21{
+	height:180px;margin-bottom:10px;
+}
+.img12{
+	height:264px;
+}
+img{
+	position:absolute;
+	left:0px;
+	top:0px;
+	opacity:1;
+}

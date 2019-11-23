@@ -1,0 +1,20 @@
+*{ margin:0; padding:0;}
+body{ background:url(../images/bg.jpg); }
+
+#Tz_wrap{ width:570px; height:420px; ;margin:10px auto; padding:50px 70px; border-radius:5px;  position:relative; }
+#Tz_wrap .pic{ width:570px; height:420px; perspective:800px; }
+#Tz_wrap .pic ul{ width:570px; height:420px; box-shadow:0 0 2px rgba(114, 114, 118, 0.54); overflow: hidden; position:absolute; transform-style:preserve-3d; z-index:-1; }
+#Tz_wrap .pic ul.now{ z-index:2; }
+#Tz_wrap .pic ul.next{ z-index:1; }
+#Tz_wrap .pic ul li{ list-style:none; position:absolute; transform:translate(0px,0px) rotateX(0deg); border:1px solid transparent; background-origin:border-box; opacity:1; }
+#Tz_wrap .pic ul li.on{ transform:translate(-50px,-50px) rotateX(720deg); border:1px solid #000; opacity:0; }
+#Tz_wrap .pic ul li.move{ transition:1.5s transform , 1.5s opacity; }
+#Tz_wrap .pic ul li.last{ transform:translate(0px,0px) rotateX(0deg); border:1px solid transparent; opacity:1; }
+#Tz_wrap .pic .ul1 li{ background: url(../images/1.png); }
+#Tz_wrap .pic .ul2 li{ background: url(../images/2.png); }
+#Tz_wrap .pic .ul3 li{ background: url(../images/3.png); }
+#Tz_wrap .pic .ul4 li{ background: url(../images/4.png); }
+#Tz_wrap .pic .ul5 li{ background: url(../images/5.png); }
+#Tz_wrap .btn div{ width:40px; height:69px; position:absolute; top:50%; margin-top:-35px; background-image:url(../images/btn.png); cursor:pointer; }
+#Tz_wrap .btn div#left{ left:15px; background-position:0px 0px; }
+#Tz_wrap .btn div#right{ right:15px; background-position:-42px 0px; }

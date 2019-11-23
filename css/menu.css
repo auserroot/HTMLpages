@@ -1,0 +1,34 @@
+
+/*通用初始化样式*/
+* { margin: 0; padding: 0; }
+body, div, p, h1, h2, h3, h4, h5, h6, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, table,th,td { margin:0; padding:0; }
+body, button, input, select, textarea  { font: 12px/24px Arial, 'Microsoft Yahei',"宋体", sans-serif; }
+address, cite, em, i { font-style: normal; }
+small { font-size: 12px; } li { list-style: none; } a { text-decoration: none; } a:hover { text-decoration: none; }
+legend { color: #000; } fieldset, img { border: 0; } button, input, select, textarea { font-size: 100%; line-height:normal; }
+table{ border-collapse: collapse; border-spacing: 0; }
+input[type="button"],input[type="submit"],input[type="reset"]{cursor:pointer;}
+iframe{ display:block; } .clearfix:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; } .clearfix { zoom:1; }
+/*正文样式*/
+* { margin: 0; padding: 0; }
+
+body { background: #434343; padding: 35px 0 0; margin:150px auto 0; text-align: center }
+
+#Tz_nav { display: inline-block; font-size: 18px; font-family: 'Microsoft yahei'; }
+
+#Tz_nav:before, #Tz_nav:after { margin-top: 8px; content: ""; float: left; border: 24px solid #ffffff }
+
+#Tz_nav a:link, #Tz_nav a:visited { float: left; text-decoration: none; height: 56px; overflow: hidden; color: #000000; }
+
+#Tz_nav:before { border-left: 24px solid transparent; }
+
+#Tz_nav:after { border-right: 24px solid transparent; }
+
+#Tz_nav span { display: inline-block; line-height: 48px; background-color: #ffffff; padding: 0 16px; margin-top: 8px;
+	position: relative; }
+
+#Tz_nav span:after, #Tz_nav span:before { position: absolute; content: ""; top: 48px; border-bottom: 8px solid #ffffff; }
+
+#Tz_nav span:after { left: 0; border-right: 8px solid #ac9357; }
+
+#Tz_nav span:before { right: 0; border-left: 8px solid #ac9357; }
